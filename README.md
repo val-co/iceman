@@ -12,6 +12,10 @@ The following dependencies are required for this project:
 - **[GROOT Forests](https://github.com/tudelft-cda-lab/GROOT)** 
 - **[OC-Score](https://github.com/laudv/ocscore)** 
 
-Other dependencies include Pandas, Numpy, Tqdm, Functools, Scikit-Learn, XGBoost, Pickle, Plotly, Collections, and Imbalanced-Learn. 
+Other dependencies include Pandas, Numpy, Tqdm, Functools, Scikit-Learn, XGBoost, Pickle, Plotly, Collections, and Imbalanced-Learn.
+
+All the code is structured in the form of Jupyter Notebooks for ease of understanding and step-by-step execution, allowing you to experiment interactively.
+
+Certain operations in the notebooks, such as the counterexample region generation process, can take up a fair bit of time (ranging from 30 to 150 minutes in our experiments). As a result, the final outcomes of these stages are saved as pickled objects in the repository. To re-run these experiments from scratch, simply comment out the code that loads the pickled objects.
 
 For any questions, feel free to send me a message at **valency.colaco@liu.se**
